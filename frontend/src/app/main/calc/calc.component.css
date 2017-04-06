@@ -1,0 +1,32 @@
+button {
+	height: 70px;
+	width: 70px;
+	margin: 4px 4px;
+	border-radius: 4px;
+	border: none !important;
+}
+
+.calc {
+
+}
+
+#result {
+	height: 70px;
+	width: 80%;
+	border-radius: 4px;
+	border: 2px solid #5DADE2;
+}
+
+#Enter {
+	height: 70px;
+	width: 150px;
+	margin: 4px 4px;
+	border: none !important;
+}
+
+#c {
+	background-color: #E67E22  ;
+}
+#minus {
+	background-color: #F1C40F   ;
+}

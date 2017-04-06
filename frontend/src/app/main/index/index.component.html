@@ -1,0 +1,14 @@
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-xs-3" id="orderlist">
+			<app-orderlist *ngFor="let menu of menus" [menu]="menu"></app-orderlist>
+		</div>
+		<div class="col-xs-6">
+			<app-menu (notify)="onClick($event)"></app-menu>
+		</div>
+		<div class="col-xs-3">
+			<app-calc></app-calc>
+		</div>
+	
+	</div>
+</div>
